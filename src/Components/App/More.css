@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* letter-spacing: 0.5px; */
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.hero-container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.hero h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    word-spacing: -3px;
+    margin: 20px 0;
+    letter-spacing: 0;
+}
+
+.hero .download{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+.download h3{
+    height: 75%;
+    width: 95px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    color: #fff;
+}
+
+.download h4{
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    word-spacing: -2px;
+}
